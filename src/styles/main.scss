@@ -1,11 +1,23 @@
 body {
-  margin: 0;
+  margin: 50;
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.customButton {
+  background-color: #FF5733;
+  color: white;
+  padding-bottom: 10pc;
+
+  &:hover {
+    background-color: darken(#FF5733, 10%);
+  }
 }
