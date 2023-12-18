@@ -7,7 +7,7 @@ import {
   Alert, Avatar, Badge, Chip, List, ListItem, Table, TableBody,
   TableCell, TableHead, TableRow, Typography, Tooltip, Modal
 } from '@mui/material';
-import {AddIcon, DeleteIcon} from '@mui/icons-material/Add';
+import { Add as AddIcon, Delete as DeleteIcon } from '@mui/icons-material';
 
 function App() {
   return (
